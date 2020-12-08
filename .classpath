@@ -6,6 +6,7 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="lib" path="/home/trm/Documents/D.A.M./1ª Semestre/Program./acm.jar"/>
+	<classpathentry kind="lib" path="lib/acm.jar" sourcepath="lib/acm-src.jar"/>
+	<classpathentry kind="lib" path="lib/acm-src.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
