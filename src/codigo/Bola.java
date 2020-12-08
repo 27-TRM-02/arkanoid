@@ -33,8 +33,10 @@ public class Bola extends GOval {
 	    desplazamientoX = desplazamientoX * -1;
 	}
 	// Si choca en el suelo desaparece bola
-	if (getY() > ark.getHeight()) {
-	    ark.remove(ark);
+	if (this.getY() > ark.getHeight()) {
+	    ark.remove(this);
+	    this.desplazamientoX = 0;
+	    this.desplazamientoY = 0;
 	}
 	// rebotes de la bola con el cursor
 	GObject auxiliar;

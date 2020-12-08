@@ -7,9 +7,9 @@ import acm.graphics.GImage;
 import acm.program.GraphicsProgram;
 
 public class Arkanoid extends GraphicsProgram {
-    // Constantes
-    static final int ANCHO_PANTALLA = 600;
-    static final int ALTO_PANTALLA = 600;
+    // Constantes900
+    static final int ANCHO_PANTALLA = 900;
+    static final int ALTO_PANTALLA = 700;
     static final int ANCHO_LADRILLO = 30;
     static final int ALTO_LADRILLO = 15;
     static final int ANCHO_CURSOR = 60;

@@ -21,7 +21,7 @@ public class Niveles extends GraphicsProgram {
 	int numeroLadrillos = 14;
 	for (int j = 0; j < numeroLadrillos; j++) {
 	    for (int i = j; i < numeroLadrillos; i++) {
-		Ladrillo miLadrillo = new Ladrillo(ANCHO_LADRILLO * i - ANCHO_LADRILLO / 2 * j,
+		Ladrillo miLadrillo = new Ladrillo(ANCHO_LADRILLO * i - ANCHO_LADRILLO / 2 * j + 77,
 			ALTO_LADRILLO * j + ALTO_LADRILLO, ANCHO_LADRILLO, ALTO_LADRILLO, Color.darkGray);
 		ark.add(miLadrillo);
 	    }
